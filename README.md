@@ -1,0 +1,2 @@
+# programm3
+PROGRAM FAKTORIAL
