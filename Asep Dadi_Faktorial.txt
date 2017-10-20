@@ -1,0 +1,25 @@
+                    program faktorial;
+uses crt;
+var
+g,h,i : integer;
+
+begin
+writeln('Nama     : Asep dadi             ');
+writeln('Fakultas : Teknologi Informasi   ');
+writeln('Prodi    : Informatika           ');
+writeln('Tugas    : BAB 3                 ');
+writeln(' ');
+writeln('********** PROGRAM FAKTORIAL **********');
+writeln(' ');
+write('Masukan Nilai h : '); readln(h);
+i := 1;
+for g := 1 to h do
+begin
+i := i*g
+end;
+writeln(' ');
+writeln(h,' faktorial = ', i);
+writeln(' ');
+writeln('***********  SELESAI  ***********');
+readkey;
+end.
